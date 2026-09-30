@@ -1,0 +1,20 @@
+{attribute 'qualified_only'}
+NAMESPACE GVL_Comm
+// Outgoing MQTT queue (ring buffer) shared by the line logic and MqttComm.
+VAR_GLOBAL CONSTANT
+    QSIZE : INT := 1024;
+END_VAR
+VAR_GLOBAL
+    BrokerHost : STRING(64) := '127.0.0.1';
+    BrokerPort : UINT := 1883;
+    Connected : BOOL;
+    Topic : ARRAY[0..1023] OF STRING(48);
+    Payload : ARRAY[0..1023] OF STRING(230);
+    RetainFlag : ARRAY[0..1023] OF BOOL;
+    Head : INT;          // next message to send
+    Tail : INT;          // next free slot
+    Seq : UDINT;         // event sequence number (gaps = lost events)
+    Dropped : UDINT;     // messages refused because the queue was full
+    PubErrors : UDINT;
+END_VAR
+END_NAMESPACE

@@ -1,0 +1,40 @@
+Generate code for WEBSOCKETWRITE.RESETACTION...
+Generate code for MQTTPAYLOAD.OBJECTRETAIN...
+Generate code for ETRIGTO.FB_EXIT...
+Generate code for TIMINGCONTROLLEDBEHAVIOURMODELBASE.GETCONFIGURATION...
+Generate code for _CONNECTOR.FB_EXIT...
+Generate code for ETRIGTO...
+Generate code for LCONC._EXECUTE...
+Generate code for TCP_WRITE.FB_EXIT...
+Generate code for BEHAVIOURMODELBASE.GETCONFIGURATION2...
+Generate code for BEHAVIOURMODEL.GETCONFIGURATION2...
+'xFooBar' is no input of 'MQTTCLIENT' 
+/tmp/p1/BenchLine.fbsdev/Application.iecapp^/PLC_PRG.prg.st (11, 0, length: 82)
+Identifier 'xFooBar' not defined 
+/tmp/p1/BenchLine.fbsdev/Application.iecapp^/PLC_PRG.prg.st (11, 66, length: 7)
+'pwsTopicName' is no input of 'MQTTPUBLISH' 
+/tmp/p1/BenchLine.fbsdev/Application.iecapp^/PLC_PRG.prg.st (12, 0, length: 212)
+'xBarBaz' is no input of 'MQTTPUBLISH' 
+/tmp/p1/BenchLine.fbsdev/Application.iecapp^/PLC_PRG.prg.st (12, 0, length: 212)
+VAR_IN_OUT 'wsTopicName' must be assigned in call of 'MQTTPublish' 
+/tmp/p1/BenchLine.fbsdev/Application.iecapp^/PLC_PRG.prg.st (12, 0, length: 212)
+Cannot convert type 'Unknown type: 'MQTT.QoS.AtMostOnce'' to type 'MQTT_QOS' 
+/tmp/p1/BenchLine.fbsdev/Application.iecapp^/PLC_PRG.prg.st (13, 12, length: 19)
+'MQTT.QoS' is no structured variable 
+/tmp/p1/BenchLine.fbsdev/Application.iecapp^/PLC_PRG.prg.st (13, 12, length: 8)
+'MQTT CLIENT SL, 1.13.0.0 (CODESYS)' contains no definition for 'QoS' 
+/tmp/p1/BenchLine.fbsdev/Application.iecapp^/PLC_PRG.prg.st (13, 17, length: 3)
+Identifier 'pwsTopicName' not defined 
+/tmp/p1/BenchLine.fbsdev/Application.iecapp^/PLC_PRG.prg.st (13, 51, length: 12)
+Identifier 'xBarBaz' not defined 
+/tmp/p1/BenchLine.fbsdev/Application.iecapp^/PLC_PRG.prg.st (13, 103, length: 7)
+'xQuux' is no input of 'MQTTSUBSCRIBE' 
+/tmp/p1/BenchLine.fbsdev/Application.iecapp^/PLC_PRG.prg.st (14, 0, length: 33)
+VAR_IN_OUT 'mqttClient' must be assigned in call of 'MQTTSubscribe' 
+/tmp/p1/BenchLine.fbsdev/Application.iecapp^/PLC_PRG.prg.st (14, 0, length: 33)
+VAR_IN_OUT 'wsTopicFilter' must be assigned in call of 'MQTTSubscribe' 
+/tmp/p1/BenchLine.fbsdev/Application.iecapp^/PLC_PRG.prg.st (14, 0, length: 33)
+Identifier 'xQuux' not defined 
+/tmp/p1/BenchLine.fbsdev/Application.iecapp^/PLC_PRG.prg.st (14, 22, length: 5)
+Build complete -- 14 errors, 0 warnings : No download possible
+Compilation failed: 00:00:02.8523683

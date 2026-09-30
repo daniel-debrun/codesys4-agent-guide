@@ -1,0 +1,9 @@
+------ Build started: Application: BenchLine.Application -------
+Typify code...
+Generate code...
+Function 'SysSockIoctl' requires exactly '3' inputs 
+/home/dev/probe2/BenchLine.fbsdev/Application.iecapp^/PLC_PRG.prg.st (16, 7, 
+length: 51)
+Build complete -- 1 errors, 0 warnings : No download possible
+Compilation failed: 00:00:00.7827230
+info: Microsoft.Hosting.Lifetime[0] Application is shutting down...

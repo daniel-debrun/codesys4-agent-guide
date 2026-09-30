@@ -1,0 +1,24 @@
+Successfully resolved library with namespace 'CmpErrors' to: Managed library 
+resolution to 'CmpErrors2 Interfaces, >=0.0.0 (System)': Found in 
+Library 'CmpErrors2 Interfaces, 3.5.22 (System)' found at 
+'/tmp/p1/BenchLine.fbsdev/.library-cache/System/CmpErrors2 
+Interfaces/3.5.22/CmpErrors2 Interfaces.compiled-library' 
+--- compile
+Waiting for background processing to finish.
+The device 'CODESYS Control for Linux SL' requires the following libraries which
+Initializing Compiler: 00:00:00.0006576
+Triggering compilation: 00:00:00.0014871
+------ Build started: Application: BenchLine.Application -------
+Typify code...
+Generate code...
+EDGETRIGGEREDTIMINGCONTROLLEDBEHAVIOURMODELBASE.__GETINTERFACEREFERENCE...
+EDGETRIGGEREDTIMINGCONTROLLEDBEHAVIOURMODELBASE.__GETINTERFACEPOINTER...
+EDGETRIGGEREDTIMINGCONTROLLEDBEHAVIOURMODELBASE.SAMPLEACTION...
+String variable 'wsTopic' too short for the VAR_IN_OUT parameter 'wsTopicName' 
+of 'MQTTPublish' /tmp/p1/BenchLine.fbsdev/Application.iecapp^/PLC_PRG.prg.st 
+(15, 65, length: 7)
+String variable 'wsFilter' too short for the VAR_IN_OUT parameter 
+'wsTopicFilter' of 'MQTTSubscribe' 
+/tmp/p1/BenchLine.fbsdev/Application.iecapp^/PLC_PRG.prg.st (16, 39, length: 8)
+Build complete -- 2 errors, 0 warnings : No download possible
+Compilation failed: 00:00:02.5260855

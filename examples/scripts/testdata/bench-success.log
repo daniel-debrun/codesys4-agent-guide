@@ -1,0 +1,21 @@
+------ Build started: Application: BenchLine.Application -------
+Typify code...
+Generate code...
+Generate global initializations...
+Generate code initialization...
+Generate relocations...
+Memory area 0 contains  Data, Input, Output, Memory and Nonsafe data: size: 
+1048576 bytes, highest used address: 739544, largest contiguous memory gap: 
+309032 bytes (29 %)
+Memory area 3 contains  Code: size: 1048576 bytes, highest used address: 341432,
+largest contiguous memory gap: 707144 bytes (67 %)
+Build complete -- 0 errors, 0 warnings : Ready for download
+Compilation successful: 00:00:02.3711202
+Writing boot application at 
+/home/dev/build/bench_line/BenchLine.fbsdev/Application.iecapp^/.bootapp/Applica
+tion.app: 00:00:02.3711987
+Code generator: CODESYS.C4.Codex86-64.Ap.Codex86-64.Impl, Version=3.5.22.30 
+(little endian).
+BootApp finished: 00:00:02.4312635 
+/home/dev/build/bench_line/BenchLine.fbsdev/Application.iecapp^/
+info: Microsoft.Hosting.Lifetime[0] Application is shutting down...
